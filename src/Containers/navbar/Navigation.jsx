@@ -113,9 +113,7 @@ export default function Navbar() {
               }}
             >
               <MenuItem onClick={handleClose}>Himanshu Yadav</MenuItem>
-              <MenuItem onClick={handleClose}>Madhumita Chaudhuri</MenuItem>
-              <MenuItem onClick={handleClose}>Nagasai Lakshami</MenuItem>
-              <MenuItem onClick={handleClose}>Darshan Shinde</MenuItem>
+         
          
             </Menu>
           </Box>

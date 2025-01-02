@@ -83,12 +83,12 @@ function Sidebar({collapsed, setCollapsed, handleCollapse, changeTheme}) {
         <AddOutlinedIcon onClick={handleOpen} sx={{ fontSize: "1.2rem" }} />
       </div>
 
-      <div className={style.sideBarOptions}>
+      <div className={style.sideBarOptions} onClick={handleClick}>
         <div className={style.optionInner}>
           <SettingsOutlinedIcon sx={{ fontSize: "1.2rem" }} />
           <p>Workspace Settings</p>
         </div>
-        <ExpandMoreIcon onClick={handleClick} sx={{ fontSize: "1.2rem" }} />
+        <ExpandMoreIcon  sx={{ fontSize: "1.2rem" }} />
       </div>
 
   

@@ -96,8 +96,6 @@ List =[
 ]
 ```
 
-## Team members
-1 : Himanshu Yadav
-2 : Madhumita Chaudhari 
-3 : Nagasai Lakshami
-4 : Darshan shinde
+## Team member
+ Himanshu Yadav
+
