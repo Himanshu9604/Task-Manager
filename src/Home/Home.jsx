@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <div className={style.HomeContainer}>
       <div className={style.Navbar}>
-        <Navbarr />
+        <Navbar />
       </div>
       <div className={style.container}>
         <div
