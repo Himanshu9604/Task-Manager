@@ -1,6 +1,5 @@
 import React from "react";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
-import Navbar from "../Containers/Navbar/Navigation";
 import Board from "../Containers/board/Board";
 import Sidebar from "../Containers/sidebar/Sidebar";
 import style from "../Home/Home.module.css";
@@ -9,6 +8,7 @@ import clone from "../utils/clone.jpg";
 import MImage from "../utils/MImage.jpg";
 import gexupdate from "../utils/gxupdate.jpg";
 import Webb from "../utils/Webb.jpg";
+import Navbar from "../Containers/navbar/Navigation";
 // abcd
 const Home = () => {
   const [collapsed, setCollapsed] = React.useState(false);
@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <div className={style.HomeContainer}>
       <div className={style.Navbar}>
-        <Navbar />
+        <Navbarr />
       </div>
       <div className={style.container}>
         <div
